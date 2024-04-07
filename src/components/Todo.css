@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #e5d4ff;
+  font-family: sans-serif;
+}
+.container {
+  width: 500px;
+  height: fit-content;
+  background-color: #dcbfff;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 70px;
+  box-shadow: 0px 6px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:50px 0;
+    gap: 15px;
+}
+
+.input input{
+    width: 330px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #1c1c1c;
+    outline: none;
+    box-shadow: 0px 6px 15px -3px rgba(0, 0, 0, 0.1);
+
+}
+.input .addBtn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    background-color: #c996f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  box-shadow: 0px 6px 15px -3px rgba(0, 0, 0, 0.1);
+
+}
+.listContainer{
+    display: flex;
+    gap: 15px;
+    padding-left: 60px;
+
+}
+
+.listContainer .listItem{
+    background-color: #c996f5;
+    width: 330px;
+    height: 30px;
+    margin-bottom: 15px;
+    border-radius: 40px;
+    padding-left: 20px;
+    font-weight: 600;
+    padding-top: 10px;
+    overflow: hidden;
+    color: #1c1c1c;
+    box-shadow: 0px 10px 25px -3px rgba(0, 0, 0, 0.1);
+}
+
+.listContainer .deleteBtn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: #c996f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 5px;
+}
